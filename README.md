@@ -24,8 +24,11 @@ Pi 启动后自动加载 `.pi/SYSTEM.md` 作为系统提示词，以及 `.pi/ext
 
 ## 致谢
 
-系统提示词 `SYSTEM.md` 参考了 [阿梦的 DS 通用预设](https://github.com/) 的组织结构，其预设本身借鉴了贝露凛慏、haruki、xianwang 等 SillyTavern 社区前辈的设计。
+系统提示词 `SYSTEM.md` 参考了阿梦的 DS 通用预设的组织结构，其预设本身借鉴了贝露凛慏、haruki、xianwang 等 SillyTavern 社区前辈的设计。
 
 ## 许可
 
-MIT
+本项目采用双协议：
+
+- **代码**（`.pi/extensions/` 下的 TypeScript 扩展）使用 [GPL 3.0](LICENSE)
+- **提示词与文档**（`SYSTEM.md`、Skills 等）使用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
