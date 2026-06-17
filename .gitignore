@@ -1,0 +1,4 @@
+# Ignore everything under template except .pi/
+template/*
+!template/.pi
+!template/.pi/**
