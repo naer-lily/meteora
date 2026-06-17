@@ -9,9 +9,9 @@
 ```
 template/
 ├── AGENTS.md                  # 项目上下文文件（Pi 自动加载）
-├── SYSTEM.md                  # 替换默认 system prompt，定义"小说创作助手"角色
-├── APPEND_SYSTEM.md           # 追加到 system prompt 的补充指令
 ├── .pi/
+│   ├── SYSTEM.md              # 替换默认 system prompt，定义"小说创作助手"角色
+│   ├── APPEND_SYSTEM.md       # 追加到 system prompt 的补充指令
 │   ├── skills/                # 小说创作专用技能（世界观管理、角色档案、情节追踪等）
 │   └── extensions/            # 小说创作专用扩展（章节管理、设定一致性检查、人物关系图生成等）
 └── prompts/                   # 提示词模板（如 /new-chapter、/character-card 等）
